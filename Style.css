@@ -1,0 +1,100 @@
+body {
+  background-image: url("./Imgs/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(164, 173, 180, 0.534);
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(129, 251, 255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(4, 0, 255),
+    0 0 0.2em rgb(7, 7, 88);
+  font-weight: bolder;
+  margin-top: 40px;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.692);
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.card {
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 25px;
+}
+.card-img {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 260px;
+  border-radius: 8px;
+  opacity: 80%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+h5 {
+  color: gray;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  height: 5px;
+}
+p {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: italic;
+  height: 40px;
+}
+h4 {
+  text-align: center;
+  font-size: large;
+  color: rgba(0, 0, 255, 0.596);
+}
+.quantities {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input {
+  width: 60px;
+  text-align: center;
+}
+i:hover {
+  color: rgba(8, 8, 245, 0.829);
+  font-size: large;
+  cursor: pointer;
+}
+.likedelete {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.fa-heart-circle-bolt:hover {
+  font-size: x-large;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.678);
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+label {
+  color: rgba(173, 9, 9, 0.897);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+  text-shadow: 1px 1px 2px rgba(238, 6, 6, 0.959),
+    0 0 1em rgba(179, 255, 0, 0.699), 0 0 0.2em rgba(4, 0, 255, 0.849);
+}
